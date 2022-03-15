@@ -40,11 +40,11 @@ export default function Site() {
   <>
         <nav className='w-screen z-50 fixed top-0 flex flex-row justify-end'>
             <ul className='flex flex-row text-2xl font-bold'>
-            <li><a onClick={(e) => goToTop(e, firstSectionRef)}>First</a></li>
-            <li><a onClick={(e) => goTo(e, secondSectionRef)}>Second</a></li>
-            <li><a onClick={(e) => goTo(e, thirdSectionRef)}>Third</a></li>
-            <li><a onClick={(e) => goTo(e, fourthSectionRef)}>Fourth</a></li>
-            <li><a onClick={(e) => goTo(e, fifthSectionRef)}>Fifth</a></li>
+            <li><a href='#' onClick={(e) => goToTop(e, firstSectionRef)}>First</a></li>
+            <li><a href='#' onClick={(e) => goTo(e, secondSectionRef)}>Second</a></li>
+            <li><a href='#' onClick={(e) => goTo(e, thirdSectionRef)}>Third</a></li>
+            <li><a href='#' onClick={(e) => goTo(e, fourthSectionRef)}>Fourth</a></li>
+            <li><a href='#' onClick={(e) => goTo(e, fifthSectionRef)}>Fifth</a></li>
             </ul>
         </nav>
         <div data-scroll-container className='fixed w-full'>
