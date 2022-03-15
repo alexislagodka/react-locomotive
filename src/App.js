@@ -12,6 +12,7 @@ function App() {
       { 
         smooth: true,
         smartphone: {
+          breakpoint: 0,
           smooth: true
         },
         tablet: {
