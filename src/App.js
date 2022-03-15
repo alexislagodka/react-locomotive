@@ -10,9 +10,11 @@ function App() {
       el: containerRef.current,
       smooth: true,
       smartphone: {
+        breakpoint: 0,
         smooth: true
       },
       tablet: {
+        breakpoint: 0,
         smooth: true
       }
   });
