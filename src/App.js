@@ -8,7 +8,17 @@ function App() {
 
   return (
     <LocomotiveScrollProvider
-    options={{ smooth: true }}
+    options={
+      { 
+        smooth: true,
+        mobile: {
+          smooth: true
+        },
+        tablet: {
+          smooth: true
+        }
+      }
+    }
     // watch={[route]}
     containerRef={containerRef}
   >
