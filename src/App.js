@@ -11,10 +11,11 @@ function App() {
     options={
       { 
         smooth: true,
-        mobile: {
+        smartphone: {
           smooth: true
         },
         tablet: {
+          breakpoint: 0,
           smooth: true
         }
       }
