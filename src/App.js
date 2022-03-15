@@ -13,12 +13,11 @@ function App() {
         smooth: true,
         smartphone: {
           breakpoint: 0,
-          smooth: false,
-          direction: 'vertical'
+          smooth: true
         },
         tablet: {
           breakpoint: 0,
-          smooth: false
+          smooth: true
         }
       }
     }
